@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "neural-network-from-scratch"
+version = "1.0.0"
+description = "First-principles neural network with analytical backpropagation and finite-difference gradient verification (< 10^-6) on MNIST."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "Nguyen Huynh Dang Nhut", email = "dangnhutnguyen.work@gmail.com" }
+]
+keywords = [
+    "neural-networks",
+    "analytical-backpropagation",
+    "finite-difference",
+    "first-principles",
+    "mnist",
+    "calculus",
+    "numpy",
+]
+dependencies = [
+    "numpy>=1.24.0",
+]
+
+[project.optional-dependencies]
+test = [
+    "pytest>=7.0.0",
+]
