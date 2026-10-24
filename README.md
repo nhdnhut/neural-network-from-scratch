@@ -15,7 +15,7 @@
 
 In modern deep learning development, framework abstractions (such as PyTorch autograd or TensorFlow gradient tapes) compute gradients automatically behind a single `.backward()` call. While convenient for rapid prototyping, this layer of abstraction often conceals the exact tensor mechanics, intermediate cache buffers, and multivariate chain rule dynamics governing neural learning.
 
-This repository rebuilds a multi-layer feedforward neural network entirely from first principles using standard Python and NumPy, validated with analytical gradient checking against numerical finite differences ($< 10^{-6}$ relative error).
+This repository rebuilds a multi-layer feedforward neural network entirely from first principles using standard Python and NumPy, validated with analytical gradient checking against numerical finite differences ($\lt 10^{-6}$ relative error).
 
 ---
 
@@ -58,7 +58,7 @@ $$\frac{\partial L}{\partial W_{ij}} \approx \frac{L(W_{ij} + \epsilon) - L(W_{i
 
 Relative error is evaluated via:
 
-$$\text{Error} = \frac{\| \nabla_{\text{analytical}} - \nabla_{\text{numerical}} \|_2}{\| \nabla_{\text{analytical}} \|_2 + \| \nabla_{\text{numerical}} \|_2} < 10^{-6}$$
+$$\text{Error} = \frac{\| \nabla_{\text{analytical}} - \nabla_{\text{numerical}} \|_2}{\| \nabla_{\text{analytical}} \|_2 + \| \nabla_{\text{numerical}} \|_2} \lt 10^{-6}$$
 
 Run the verification suite:
 ```bash
