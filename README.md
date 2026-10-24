@@ -1,8 +1,8 @@
-# Interpretable Neural Networks from Scratch
+﻿# Interpretable Neural Networks from Scratch
 
 > First-principles implementation of feedforward propagation, analytical gradient backpropagation, and finite-difference gradient checking using pure Python and NumPy.
-> Author: Nguyen Huynh Dang Nhut (@nhutnhd)
-> Research Logbook & Theoretical Foundation: [What Is Happening Inside a Neural Network?](https://nhutnhd.github.io/writings/05-what-is-happening-inside-a-neural-network.html)
+> Author: Nguyen Huynh Dang Nhut (@nhdnhut)
+> Research Logbook & Theoretical Foundation: [What Is Happening Inside a Neural Network?](https://nhdnhut.github.io/writings/05-what-is-happening-inside-a-neural-network.html)
 
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
 [![NumPy](https://img.shields.io/badge/Library-NumPy-013243?style=flat-square&logo=numpy&logoColor=white)](https://numpy.org/)
@@ -88,7 +88,7 @@ neural-network-from-scratch/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/nhutnhd/neural-network-from-scratch.git
+   git clone https://github.com/nhdnhut/neural-network-from-scratch.git
    cd neural-network-from-scratch
    ```
 
@@ -106,5 +106,6 @@ neural-network-from-scratch/
 
 ## 6. License
 
-This project is licensed under the MIT License. Copyright (c) 2024-2026 Nguyen Huynh Dang Nhut (@nhutnhd).
-Detailed writeup available on [nhutnhd.github.io](https://nhutnhd.github.io).
+This project is licensed under the MIT License. Copyright (c) 2024-2026 Nguyen Huynh Dang Nhut (@nhdnhut).
+Detailed writeup available on [nhdnhut.github.io](https://nhdnhut.github.io).
+
