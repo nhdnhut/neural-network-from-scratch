@@ -1,4 +1,4 @@
-﻿# Interpretable Neural Networks from Scratch
+# Interpretable Neural Networks from Scratch
 
 > First-principles implementation of feedforward propagation, analytical gradient backpropagation, and finite-difference gradient checking using pure Python and NumPy.
 > Author: Nguyen Huynh Dang Nhut (@nhdnhut)
@@ -6,7 +6,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
 [![NumPy](https://img.shields.io/badge/Library-NumPy-013243?style=flat-square&logo=numpy&logoColor=white)](https://numpy.org/)
-[![Tests](https://img.shields.io/badge/Tests-4%20Passing%20(Gradient%20Checked)-brightgreen?style=flat-square&logo=pytest&logoColor=white)](tests/)
+[![Tests](https://img.shields.io/badge/Tests-4%20Passing%20%28Gradient%20Checked%29-brightgreen?style=flat-square&logo=pytest&logoColor=white)](tests/)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE)
 
 ---
